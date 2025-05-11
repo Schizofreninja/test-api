@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "0161b1ce-40e2-4415-8018-2be1977943ee",
+		"name": "Test города",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44854723",
+		"_collection_link": "https://schizo-8364351.postman.co/workspace/Schizo's-Workspace~9d2bf1f6-ad85-48e3-8c2b-e049706155c1/collection/44854723-0161b1ce-40e2-4415-8018-2be1977943ee?action=share&source=collection_link&creator=44854723"
+	},
+	"item": [
+		{
+			"name": "Города мира/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Города мира/region",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/region/Europe",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"region",
+						"Europe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Города мира/name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/japan",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"japan"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
